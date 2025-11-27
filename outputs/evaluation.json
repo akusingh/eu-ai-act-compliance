@@ -1,0 +1,81 @@
+{
+  "evaluation_summary": {
+    "total_scenarios": 8,
+    "passed": 8,
+    "failed": 0
+  },
+  "detailed_results": [
+    {
+      "scenario_id": "s1_prohibited",
+      "description": "Facial recognition for mass surveillance (Article 5 violation)",
+      "expected": "prohibited",
+      "actual": "prohibited",
+      "correct": true,
+      "risk_score": 85,
+      "confidence": 95
+    },
+    {
+      "scenario_id": "s2_high_risk_credit",
+      "description": "High-risk: Creditworthiness assessment (Annex III)",
+      "expected": "high_risk",
+      "actual": "high_risk",
+      "correct": true,
+      "risk_score": 65.0,
+      "confidence": 90
+    },
+    {
+      "scenario_id": "s3_high_risk_hiring",
+      "description": "High-risk: Employment decisions (Annex III)",
+      "expected": "high_risk",
+      "actual": "high_risk",
+      "correct": true,
+      "risk_score": 70.0,
+      "confidence": 95
+    },
+    {
+      "scenario_id": "s4_limited_risk_chatbot",
+      "description": "Limited-risk: Chatbot transparency requirements",
+      "expected": "limited_risk",
+      "actual": "limited_risk",
+      "correct": true,
+      "risk_score": 25,
+      "confidence": 95
+    },
+    {
+      "scenario_id": "s5_minimal_risk_recommendations",
+      "description": "Minimal-risk: Personalization system",
+      "expected": "minimal_risk",
+      "actual": "minimal_risk",
+      "correct": true,
+      "risk_score": 3.0,
+      "confidence": 95
+    },
+    {
+      "scenario_id": "s6_high_risk_law_enforcement",
+      "description": "High-risk: Law enforcement operations (Annex III)",
+      "expected": "high_risk",
+      "actual": "high_risk",
+      "correct": true,
+      "risk_score": 65.0,
+      "confidence": 95
+    },
+    {
+      "scenario_id": "s7_minimal_risk_weather",
+      "description": "Minimal-risk: General ML application",
+      "expected": "minimal_risk",
+      "actual": "minimal_risk",
+      "correct": true,
+      "risk_score": 3.0,
+      "confidence": 95
+    },
+    {
+      "scenario_id": "s8_limited_risk_deepfake",
+      "description": "Limited-risk: Deepfakes and synthetic content",
+      "expected": "limited_risk",
+      "actual": "limited_risk",
+      "correct": true,
+      "risk_score": 35,
+      "confidence": 85
+    }
+  ]
+}

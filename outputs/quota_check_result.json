@@ -1,0 +1,26 @@
+{
+  "scenario_id": "s7_music_recommendation",
+  "expected_tier": "minimal_risk",
+  "actual_tier": "limited_risk",
+  "is_correct": false,
+  "execution_time": 23.113452,
+  "timestamp": "2025-11-19T13:26:09.953132",
+  "full_results": {
+    "total_scenarios": 1,
+    "passed": 0,
+    "failed": 1,
+    "accuracy": 0.0,
+    "accuracy_percentage": "0.0%",
+    "results": [
+      {
+        "scenario_id": "s7_music_recommendation",
+        "description": "Music recommendation engine evaluation",
+        "expected": "minimal_risk",
+        "actual": "limited_risk",
+        "correct": false,
+        "risk_score": 30,
+        "confidence": 0.95
+      }
+    ]
+  }
+}

@@ -1,0 +1,817 @@
+{
+  "created": 1763818925.516625,
+  "duration": 2.0309457778930664,
+  "exitcode": 0,
+  "root": "/Users/arunkumar.singh/kaggle-capstone",
+  "environment": {},
+  "summary": {
+    "total": 0,
+    "collected": 100
+  },
+  "collectors": [
+    {
+      "nodeid": "",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests",
+          "type": "Dir"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/docs",
+      "outcome": "passed",
+      "result": []
+    },
+    {
+      "nodeid": "tests/results",
+      "outcome": "passed",
+      "result": []
+    },
+    {
+      "nodeid": "tests/test_evaluation.py::TestEvaluationScenario",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationScenario::test_scenario_creation",
+          "type": "Function",
+          "lineno": 12
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationScenario::test_scenario_with_optional_fields",
+          "type": "Function",
+          "lineno": 35
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationScenario::test_scenario_to_dict",
+          "type": "Function",
+          "lineno": 57
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_evaluation.py::TestAgentEvaluator",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_evaluation.py::TestAgentEvaluator::test_evaluator_initialization",
+          "type": "Function",
+          "lineno": 129
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestAgentEvaluator::test_risk_tier_match_evaluation",
+          "type": "Function",
+          "lineno": 136
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestAgentEvaluator::test_score_range_evaluation",
+          "type": "Function",
+          "lineno": 147
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestAgentEvaluator::test_run_evaluation_structure",
+          "type": "Function",
+          "lineno": 157
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestAgentEvaluator::test_scenario_list_structure",
+          "type": "Function",
+          "lineno": 179
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestAgentEvaluator::test_results_aggregation",
+          "type": "Function",
+          "lineno": 188
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_evaluation.py::TestEvaluationMetrics",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationMetrics::test_accuracy_calculation",
+          "type": "Function",
+          "lineno": 210
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationMetrics::test_risk_tier_confusion_matrix",
+          "type": "Function",
+          "lineno": 224
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationMetrics::test_score_difference_calculation",
+          "type": "Function",
+          "lineno": 237
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationMetrics::test_confidence_score_aggregation",
+          "type": "Function",
+          "lineno": 250
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_evaluation.py::TestScenarioExecution",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_evaluation.py::TestScenarioExecution::test_sequential_scenario_execution",
+          "type": "Coroutine",
+          "lineno": 268
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestScenarioExecution::test_rate_limiting_delay",
+          "type": "Function",
+          "lineno": 285
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_evaluation.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationScenario",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestAgentEvaluator",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestEvaluationMetrics",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_evaluation.py::TestScenarioExecution",
+          "type": "Class"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow::test_minimal_risk_assessment",
+          "type": "Function",
+          "lineno": 28
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow::test_limited_risk_assessment",
+          "type": "Function",
+          "lineno": 57
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow::test_high_risk_assessment",
+          "type": "Function",
+          "lineno": 76
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow::test_prohibited_assessment",
+          "type": "Function",
+          "lineno": 95
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow::test_assessment_includes_articles",
+          "type": "Function",
+          "lineno": 114
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow::test_assessment_produces_report",
+          "type": "Function",
+          "lineno": 135
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow::test_state_management",
+          "type": "Function",
+          "lineno": 157
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_integration.py::TestObservabilityIntegration",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_integration.py::TestObservabilityIntegration::test_metrics_recorded_during_assessment",
+          "type": "Function",
+          "lineno": 184
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestObservabilityIntegration::test_traces_recorded_during_assessment",
+          "type": "Function",
+          "lineno": 214
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_integration.py::TestErrorHandling",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_integration.py::TestErrorHandling::test_missing_required_fields",
+          "type": "Function",
+          "lineno": 250
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestErrorHandling::test_invalid_data_types",
+          "type": "Function",
+          "lineno": 269
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_integration.py::TestPipelineInfo",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_integration.py::TestPipelineInfo::test_get_pipeline_info",
+          "type": "Function",
+          "lineno": 294
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestPipelineInfo::test_metadata_in_result",
+          "type": "Function",
+          "lineno": 304
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_integration.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_integration.py::TestFullAssessmentWorkflow",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestObservabilityIntegration",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestErrorHandling",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_integration.py::TestPipelineInfo",
+          "type": "Class"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_models.py::TestRiskTierEnum",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_models.py::TestRiskTierEnum::test_all_risk_tiers_defined",
+          "type": "Function",
+          "lineno": 17
+        },
+        {
+          "nodeid": "tests/test_models.py::TestRiskTierEnum::test_risk_tier_values_lowercase",
+          "type": "Function",
+          "lineno": 24
+        },
+        {
+          "nodeid": "tests/test_models.py::TestRiskTierEnum::test_risk_tier_from_string",
+          "type": "Function",
+          "lineno": 31
+        },
+        {
+          "nodeid": "tests/test_models.py::TestRiskTierEnum::test_invalid_risk_tier_raises_error",
+          "type": "Function",
+          "lineno": 38
+        },
+        {
+          "nodeid": "tests/test_models.py::TestRiskTierEnum::test_risk_tier_comparison",
+          "type": "Function",
+          "lineno": 43
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_models.py::TestAISystemProfile",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_models.py::TestAISystemProfile::test_valid_profile_creation",
+          "type": "Function",
+          "lineno": 55
+        },
+        {
+          "nodeid": "tests/test_models.py::TestAISystemProfile::test_profile_with_minimal_data_types",
+          "type": "Function",
+          "lineno": 74
+        },
+        {
+          "nodeid": "tests/test_models.py::TestAISystemProfile::test_profile_requires_all_fields",
+          "type": "Function",
+          "lineno": 90
+        },
+        {
+          "nodeid": "tests/test_models.py::TestAISystemProfile::test_profile_boolean_fields",
+          "type": "Function",
+          "lineno": 98
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_models.py::TestComplianceAssessment",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment::test_valid_assessment_creation",
+          "type": "Function",
+          "lineno": 118
+        },
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment::test_risk_score_validation_bounds",
+          "type": "Function",
+          "lineno": 134
+        },
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment::test_risk_score_at_boundaries",
+          "type": "Function",
+          "lineno": 160
+        },
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment::test_optional_fields_defaults",
+          "type": "Function",
+          "lineno": 178
+        },
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment::test_risk_tier_score_consistency_prohibited",
+          "type": "Function",
+          "lineno": 189
+        },
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment::test_risk_tier_score_consistency_high_risk",
+          "type": "Function",
+          "lineno": 200
+        },
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment::test_risk_tier_score_consistency_limited_risk",
+          "type": "Function",
+          "lineno": 211
+        },
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment::test_risk_tier_score_consistency_minimal_risk",
+          "type": "Function",
+          "lineno": 222
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_models.py::TestModelSerialization",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_models.py::TestModelSerialization::test_profile_to_dict",
+          "type": "Function",
+          "lineno": 237
+        },
+        {
+          "nodeid": "tests/test_models.py::TestModelSerialization::test_assessment_to_dict",
+          "type": "Function",
+          "lineno": 256
+        },
+        {
+          "nodeid": "tests/test_models.py::TestModelSerialization::test_assessment_from_dict",
+          "type": "Function",
+          "lineno": 271
+        },
+        {
+          "nodeid": "tests/test_models.py::TestModelSerialization::test_risk_tier_json_serialization",
+          "type": "Function",
+          "lineno": 286
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_models.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_models.py::TestRiskTierEnum",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_models.py::TestAISystemProfile",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_models.py::TestComplianceAssessment",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_models.py::TestModelSerialization",
+          "type": "Class"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_observability.py::TestMetricsCollector",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_initialization",
+          "type": "Function",
+          "lineno": 17
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_start_timer",
+          "type": "Function",
+          "lineno": 22
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_record_metric_basic",
+          "type": "Function",
+          "lineno": 28
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_record_metric_with_tags",
+          "type": "Function",
+          "lineno": 38
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_record_multiple_metrics",
+          "type": "Function",
+          "lineno": 53
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_get_summary",
+          "type": "Function",
+          "lineno": 64
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_get_summary_empty",
+          "type": "Function",
+          "lineno": 76
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_elapsed_time_tracking",
+          "type": "Function",
+          "lineno": 83
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector::test_save_metrics_to_file",
+          "type": "Function",
+          "lineno": 96
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_observability.py::TestTraceCollector",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_initialization",
+          "type": "Function",
+          "lineno": 124
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_record_trace_basic",
+          "type": "Function",
+          "lineno": 128
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_record_trace_with_input_output",
+          "type": "Function",
+          "lineno": 143
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_record_trace_with_error",
+          "type": "Function",
+          "lineno": 158
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_record_multiple_traces",
+          "type": "Function",
+          "lineno": 172
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_get_traces",
+          "type": "Function",
+          "lineno": 183
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_get_traces_empty",
+          "type": "Function",
+          "lineno": 194
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_save_traces_to_file",
+          "type": "Function",
+          "lineno": 199
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector::test_trace_ordering",
+          "type": "Function",
+          "lineno": 224
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_observability.py::TestObservabilityIntegration",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_observability.py::TestObservabilityIntegration::test_combined_usage",
+          "type": "Function",
+          "lineno": 252
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestObservabilityIntegration::test_save_both_to_directory",
+          "type": "Function",
+          "lineno": 271
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_observability.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_observability.py::TestMetricsCollector",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestTraceCollector",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_observability.py::TestObservabilityIntegration",
+          "type": "Class"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_tools.py::TestComplianceScoringTool",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_tool_initialization",
+          "type": "Function",
+          "lineno": 16
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_framework_has_required_patterns",
+          "type": "Function",
+          "lineno": 22
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_score_range_bounds",
+          "type": "Function",
+          "lineno": 29
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_prohibited_system_high_score",
+          "type": "Function",
+          "lineno": 41
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_high_risk_system_appropriate_score",
+          "type": "Function",
+          "lineno": 58
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_limited_risk_system_appropriate_score",
+          "type": "Function",
+          "lineno": 75
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_minimal_risk_system_low_score",
+          "type": "Function",
+          "lineno": 92
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_confidence_score_in_valid_range",
+          "type": "Function",
+          "lineno": 109
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_result_contains_required_fields",
+          "type": "Function",
+          "lineno": 121
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_pattern_matching_prohibited",
+          "type": "Function",
+          "lineno": 135
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_pattern_matching_high_risk",
+          "type": "Function",
+          "lineno": 144
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool::test_json_parsing_error_handling",
+          "type": "Function",
+          "lineno": 153
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_tools.py::TestEUAIActReferenceTool",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_tools.py::TestEUAIActReferenceTool::test_tool_initialization",
+          "type": "Function",
+          "lineno": 171
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestEUAIActReferenceTool::test_article_extraction",
+          "type": "Function",
+          "lineno": 177
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestEUAIActReferenceTool::test_multiple_articles_extraction",
+          "type": "Function",
+          "lineno": 185
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestEUAIActReferenceTool::test_keyword_search",
+          "type": "Function",
+          "lineno": 194
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestEUAIActReferenceTool::test_invalid_article_number",
+          "type": "Function",
+          "lineno": 201
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestEUAIActReferenceTool::test_empty_query_handling",
+          "type": "Function",
+          "lineno": 209
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_tools.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_tools.py::TestComplianceScoringTool",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_tools.py::TestEUAIActReferenceTool",
+          "type": "Class"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_utils.py",
+      "outcome": "passed",
+      "result": []
+    },
+    {
+      "nodeid": "tests/test_vector_index.py::TestVectorIndexTool",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool::test_tool_initialization",
+          "type": "Function",
+          "lineno": 20
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool::test_tool_has_required_attributes",
+          "type": "Function",
+          "lineno": 28
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool::test_search_query_structure",
+          "type": "Function",
+          "lineno": 38
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool::test_top_k_parameter_respected",
+          "type": "Function",
+          "lineno": 62
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool::test_default_top_k_value",
+          "type": "Function",
+          "lineno": 88
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool::test_empty_query_handling",
+          "type": "Function",
+          "lineno": 107
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool::test_result_formatting",
+          "type": "Function",
+          "lineno": 121
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool::test_metadata_inclusion",
+          "type": "Function",
+          "lineno": 145
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_vector_index.py::TestVectorIndexCaching",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexCaching::test_cache_directory_structure",
+          "type": "Function",
+          "lineno": 170
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexCaching::test_index_file_naming",
+          "type": "Function",
+          "lineno": 182
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_vector_index.py::TestVectorSearchIntegration",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorSearchIntegration::test_real_search_articles",
+          "type": "Function",
+          "lineno": 197
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorSearchIntegration::test_real_search_recitals",
+          "type": "Function",
+          "lineno": 212
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorSearchIntegration::test_real_search_annexes",
+          "type": "Function",
+          "lineno": 226
+        }
+      ]
+    },
+    {
+      "nodeid": "tests/test_vector_index.py",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexTool",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorIndexCaching",
+          "type": "Class"
+        },
+        {
+          "nodeid": "tests/test_vector_index.py::TestVectorSearchIntegration",
+          "type": "Class"
+        }
+      ]
+    },
+    {
+      "nodeid": "tests",
+      "outcome": "passed",
+      "result": [
+        {
+          "nodeid": "tests/docs",
+          "type": "Dir"
+        },
+        {
+          "nodeid": "tests/results",
+          "type": "Dir"
+        },
+        {
+          "nodeid": "tests/test_evaluation.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/test_integration.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/test_models.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/test_observability.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/test_tools.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/test_utils.py",
+          "type": "Module"
+        },
+        {
+          "nodeid": "tests/test_vector_index.py",
+          "type": "Module"
+        }
+      ]
+    }
+  ],
+  "tests": []
+}

@@ -1,0 +1,57 @@
+{
+  "test_date": "2025-11-20T10:16:27.805007",
+  "total_tests": 3,
+  "passed": 0,
+  "failed": 3,
+  "accuracy": 0.0,
+  "results": [
+    {
+      "scenario_id": "s6_deepfake_detection",
+      "scenario_name": "Deepfake Detection System (LIMITED_RISK)",
+      "expected_tier": "limited_risk",
+      "actual_tier": "high_risk",
+      "expected_score_range": [
+        35,
+        50
+      ],
+      "actual_score": 75,
+      "tier_correct": false,
+      "score_in_range": false,
+      "fully_correct": false,
+      "execution_time": 38.555493,
+      "timestamp": "2025-11-20T10:11:26.243302"
+    },
+    {
+      "scenario_id": "s7_music_recommendation",
+      "scenario_name": "Music Recommendation System (MINIMAL_RISK)",
+      "expected_tier": "minimal_risk",
+      "actual_tier": "minimal_risk",
+      "expected_score_range": [
+        5,
+        24
+      ],
+      "actual_score": 1,
+      "tier_correct": true,
+      "score_in_range": false,
+      "fully_correct": false,
+      "execution_time": 50.745318,
+      "timestamp": "2025-11-20T10:13:34.867818"
+    },
+    {
+      "scenario_id": "s8_spam_filter",
+      "scenario_name": "Spam Filter (MINIMAL_RISK)",
+      "expected_tier": "minimal_risk",
+      "actual_tier": "limited_risk",
+      "expected_score_range": [
+        5,
+        20
+      ],
+      "actual_score": 35,
+      "tier_correct": false,
+      "score_in_range": false,
+      "fully_correct": false,
+      "execution_time": 32.108182,
+      "timestamp": "2025-11-20T10:15:55.694687"
+    }
+  ]
+}

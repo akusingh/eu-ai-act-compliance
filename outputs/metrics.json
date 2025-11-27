@@ -1,0 +1,70 @@
+{
+  "total_metrics": 7,
+  "metrics": [
+    {
+      "timestamp": "2025-11-22T13:32:35.734247",
+      "metric_name": "pipeline_execution_time",
+      "value": 51.0931441783905,
+      "elapsed_seconds": 51.09332227706909,
+      "tags": {
+        "system": "Synthetic Media Tool"
+      }
+    },
+    {
+      "timestamp": "2025-11-22T13:32:35.735212",
+      "metric_name": "tool_execution_time",
+      "value": 0.0002300739288330078,
+      "elapsed_seconds": 51.094338178634644,
+      "tags": {
+        "tool": "ComplianceScoringTool"
+      }
+    },
+    {
+      "timestamp": "2025-11-22T13:32:35.735325",
+      "metric_name": "total_assessment_time",
+      "value": 51.0944550037384,
+      "elapsed_seconds": 51.09445309638977,
+      "tags": {
+        "system": "Synthetic Media Tool",
+        "risk_tier": "limited_risk"
+      }
+    },
+    {
+      "timestamp": "2025-11-22T13:32:35.735372",
+      "metric_name": "risk_score",
+      "value": 35,
+      "elapsed_seconds": 51.09450006484985,
+      "tags": {
+        "system": "Synthetic Media Tool"
+      }
+    },
+    {
+      "timestamp": "2025-11-22T13:32:35.735571",
+      "metric_name": "scenario_result",
+      "value": 1,
+      "elapsed_seconds": 51.0946991443634,
+      "tags": {
+        "scenario_id": "s8_limited_risk_deepfake",
+        "expected_tier": "limited_risk",
+        "actual_tier": "limited_risk"
+      }
+    },
+    {
+      "timestamp": "2025-11-22T13:32:35.735633",
+      "metric_name": "evaluation_accuracy",
+      "value": 1.0,
+      "elapsed_seconds": 51.09476113319397,
+      "tags": {}
+    },
+    {
+      "timestamp": "2025-11-22T13:32:35.735662",
+      "metric_name": "evaluation_summary",
+      "value": 1,
+      "elapsed_seconds": 51.09479022026062,
+      "tags": {
+        "total": "1",
+        "failed": "0"
+      }
+    }
+  ]
+}

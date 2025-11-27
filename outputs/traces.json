@@ -1,0 +1,120 @@
+[
+  {
+    "timestamp": "2025-11-22T13:31:44.640857",
+    "agent": "Evaluator",
+    "action": "scenario_start",
+    "status": "success",
+    "input": {
+      "scenario_id": "s8_limited_risk_deepfake",
+      "expected_tier": "limited_risk"
+    },
+    "output": null,
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-22T13:31:44.640873",
+    "agent": "ComplianceOrchestrator",
+    "action": "assessment_start",
+    "status": "success",
+    "input": {
+      "system_name": "Synthetic Media Tool"
+    },
+    "output": null,
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-22T13:31:44.640990",
+    "agent": "SequentialPipeline",
+    "action": "pipeline_execution_start",
+    "status": "success",
+    "input": {
+      "stages": 5
+    },
+    "output": null,
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-22T13:32:35.734444",
+    "agent": "SequentialPipeline",
+    "action": "pipeline_execution_complete",
+    "status": "success",
+    "input": null,
+    "output": {
+      "duration_seconds": 51.0931441783905
+    },
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-22T13:32:35.734604",
+    "agent": "SessionService",
+    "action": "state_retrieval",
+    "status": "success",
+    "input": null,
+    "output": {
+      "state_keys": [
+        "profile",
+        "legal_analysis",
+        "assessment",
+        "report"
+      ]
+    },
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-22T13:32:35.735254",
+    "agent": "ComplianceScoringTool",
+    "action": "score_validation",
+    "status": "success",
+    "input": {
+      "system": "Synthetic Media Tool"
+    },
+    "output": {
+      "score": 35,
+      "tier": "limited_risk",
+      "duration": 0.0002300739288330078
+    },
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-22T13:32:35.735317",
+    "agent": "ComplianceOrchestrator",
+    "action": "classification_mismatch_correction",
+    "status": "success",
+    "input": {
+      "report_tier": "high_risk",
+      "validated_tier": "limited_risk"
+    },
+    "output": {
+      "corrected": true
+    },
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-22T13:32:35.735404",
+    "agent": "ComplianceOrchestrator",
+    "action": "assessment_complete",
+    "status": "success",
+    "input": null,
+    "output": {
+      "tier": "limited_risk",
+      "score": 35,
+      "total_duration": 51.0944550037384
+    },
+    "error": null
+  },
+  {
+    "timestamp": "2025-11-22T13:32:35.735559",
+    "agent": "Evaluator",
+    "action": "scenario_complete",
+    "status": "success",
+    "input": null,
+    "output": {
+      "scenario_id": "s8_limited_risk_deepfake",
+      "expected": "limited_risk",
+      "actual": "limited_risk",
+      "correct": true,
+      "score": 35
+    },
+    "error": null
+  }
+]
